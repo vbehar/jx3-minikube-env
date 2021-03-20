@@ -40,7 +40,7 @@ jxRequirements:
     domain: 192.168.64.2.nip.io
     externalDNS: false
     kind: ingress
-    namespaceSubDomain: -jx.
+    namespaceSubDomain: -cert-manager.
     tls:
       email: ""
       enabled: false
