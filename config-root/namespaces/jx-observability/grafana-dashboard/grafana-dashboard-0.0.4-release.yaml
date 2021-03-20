@@ -1,0 +1,53 @@
+# Source: grafana-dashboard/templates/release.yaml
+apiVersion: jenkins.io/v1
+kind: Release
+metadata:
+  creationTimestamp: "2021-03-19T09:46:11Z"
+  deletionTimestamp: null
+  name: 'grafana-dashboard-0.0.4'
+  namespace: jx-observability
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+spec:
+  commits:
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        chore: release 0.0.4
+      sha: f81bd464f90defcf6085892962ba3cbcf061c00c
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        chore: add variables
+      sha: 73106515d4d0f6d2d2a30bda5c31134e89c5f9cd
+    - author:
+        email: v.behar@free.fr
+        name: Vincent Behar
+      branch: master
+      committer:
+        email: v.behar@free.fr
+        name: Vincent Behar
+      message: |
+        chore: add doc
+
+        and update OWNERS file
+
+        Signed-off-by: Vincent Behar <v.behar@free.fr>
+      sha: 8a83254b17e336ac4c03bb4b28578b93a5a0db92
+  gitHttpUrl: https://github.com/jenkins-x-charts/grafana-dashboard
+  gitOwner: jenkins-x-charts
+  gitRepository: grafana-dashboard
+  name: 'grafana-dashboard'
+  releaseNotesURL: https://github.com/jenkins-x-charts/grafana-dashboard/releases/tag/v0.0.4
+  version: v0.0.4
+status: {}
