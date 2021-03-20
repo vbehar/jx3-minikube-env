@@ -16,7 +16,7 @@ releases:
   version: 0.0.4
   name: grafana-dashboard
   values:
-  - ../../versionStream/charts/jx2/grafana-dashboard/values.yaml.gotmpl
+  - ../../versionStream/charts/jx3/grafana-dashboard/values.yaml.gotmpl
   - jx-values.yaml
 - chart: grafana/loki
   version: 2.5.0
