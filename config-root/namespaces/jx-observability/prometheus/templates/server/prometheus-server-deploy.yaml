@@ -6,7 +6,7 @@ metadata:
     component: "server"
     app: prometheus
     release: prometheus
-    chart: prometheus-13.4.0
+    chart: prometheus-13.6.0
     heritage: Helm
     gitops.jenkins-x.io/pipeline: 'namespaces'
   name: prometheus-server
@@ -29,7 +29,7 @@ spec:
         component: "server"
         app: prometheus
         release: prometheus
-        chart: prometheus-13.4.0
+        chart: prometheus-13.6.0
         heritage: Helm
     spec:
       serviceAccountName: prometheus-server
@@ -82,6 +82,8 @@ spec:
             - name: storage-volume
               mountPath: /data
               subPath: ""
+      hostNetwork: false
+      dnsPolicy: ClusterFirst
       securityContext:
         fsGroup: 65534
         runAsGroup: 65534

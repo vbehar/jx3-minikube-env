@@ -6,7 +6,7 @@ metadata:
     component: "server"
     app: prometheus
     release: prometheus
-    chart: prometheus-13.4.0
+    chart: prometheus-13.6.0
     heritage: Helm
     gitops.jenkins-x.io/pipeline: 'cluster'
   name: prometheus-server
