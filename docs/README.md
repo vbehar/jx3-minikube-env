@@ -44,7 +44,7 @@
     <tr>
 	      <td><a href='https://github.com/jenkins-x/jx-preview' title='This chart installs the jx-preview CRD and garbagecollection job
 '> <img src='https://raw.githubusercontent.com/jenkins-x/jenkins-x-website/master/images/logo/jenkinsx-icon-color.svg' width='24px' height='24px'> jx-preview </a></td>
-	      <td>0.0.170</td>
+	      <td>0.0.171</td>
 	      <td></td>
 	      <td><a href='https://github.com/jenkins-x/jx-preview'>source</a></td>
 	    </tr>
@@ -84,7 +84,7 @@
 		    </tr>
 	    <tr>
 	      <td><a href='' title='A helm chart for packaging Grafana dashboards'> <img src='https://avatars.githubusercontent.com/u/7195757' width='24px' height='24px'> grafana-dashboard </a></td>
-	      <td>0.0.4</td>
+	      <td>0.1.0</td>
 	      <td></td>
 	      <td></td>
 	    </tr>
@@ -108,7 +108,7 @@
 	    </tr>
     <tr>
 	      <td><a href='https://prometheus.io/' title='Prometheus is a monitoring system and time series database.'> <img src='https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png' width='24px' height='24px'> prometheus </a></td>
-	      <td>13.4.0</td>
+	      <td>13.6.0</td>
 	      <td></td>
 	      <td><a href='https://prometheus.io/'>source</a></td>
 	    </tr>
