@@ -13,7 +13,7 @@ repositories:
   url: https://prometheus-community.github.io/helm-charts
 releases:
 - chart: jx3/grafana-dashboard
-  version: 0.0.4
+  version: 0.1.0
   name: grafana-dashboard
   values:
   - ../../versionStream/charts/jx3/grafana-dashboard/values.yaml.gotmpl
@@ -37,7 +37,7 @@ releases:
   - ../../versionStream/charts/grafana/grafana/values.yaml.gotmpl
   - jx-values.yaml
 - chart: prometheus-community/prometheus
-  version: 13.4.0
+  version: 13.6.0
   name: prometheus
   values:
   - ../../versionStream/charts/prometheus-community/prometheus/values.yaml
